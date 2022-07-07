@@ -138,7 +138,7 @@ class App extends React.Component {
     });
     console.log("Transaction sent! Hash:", hash);
     await this.provider.waitForTransaction(hash); // Wait till the transaction is mined
-    console.log("Transaction mined!");
+    console.log("Transaction mined!!");
     alert(`Transaction sent! Hash: ${hash}`);
   }
 
